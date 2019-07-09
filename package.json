@@ -1,0 +1,39 @@
+{
+  "name": "vuejs-sanbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "rm -rf .cache && rm -rf dist && parcel index.html --public-url /",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jjori-master/vuejs-sanbox.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jjori-master/vuejs-sanbox/issues"
+  },
+  "homepage": "https://github.com/jjori-master/vuejs-sanbox#readme",
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^3.0.0",
+    "eslint": "^6.0.1",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-vue": "^5.2.3",
+    "parcel-bundler": "^1.12.3",
+    "parcel-plugin-eslint": "^1.0.7",
+    "prettier": "^1.18.2",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.9.0",
+    "vue": "^2.6.10",
+    "vue-hot-reload-api": "^2.3.3",
+    "vue-router": "^3.0.7",
+    "vuetify": "^1.5.16"
+  }
+}
