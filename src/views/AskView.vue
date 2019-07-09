@@ -1,5 +1,7 @@
 <template>
-  <router-view></router-view>
+  <div>
+    <h1>Ask</h1>
+  </div>
 </template>
 
 <script>
