@@ -4,7 +4,7 @@ import 'vuetify/dist/vuetify.min.css';
 import '@fortawesome/fontawesome-free/css/all.css';
 import App from './App';
 
-import { router } from './router/index.js';
+import { router } from './routes/index.js';
 
 Vue.use(Vuetify, {
   iconfont: 'fa',

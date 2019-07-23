@@ -25,4 +25,12 @@ export default {};
   margin: 0 3px;
   color: #02251a;
 }
+
+.header .router-link-exact-active {
+  color: #35495e;
+}
+
+.header a {
+  color: white;
+}
 </style>
